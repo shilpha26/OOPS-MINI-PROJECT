@@ -7,7 +7,7 @@ class covidcase
   int n,count1=0,count2=0,i;
   int p=0;
   int count;
-  string symp;
+  char symp[80];
   public:
    void patients();
    void positive();
